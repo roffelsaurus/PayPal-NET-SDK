@@ -42,3 +42,9 @@ Thumbs.db
 
 # vscode
 .vscode
+
+# studio
+.vs
+
+# vs studio generated stuff
+**/PublishProfiles
