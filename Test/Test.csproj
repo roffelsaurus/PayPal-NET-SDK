@@ -11,6 +11,6 @@
     <PackageReference Include="WireMock.Net" Version="1.0.2.11" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Source\Source.csproj" />
+    <ProjectReference Include="..\Source\PayPal.NET.SDK.csproj" />
   </ItemGroup>
 </Project>

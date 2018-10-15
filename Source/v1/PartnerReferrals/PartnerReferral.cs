@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PayPal.v1.PartnerReferrals.Capabilities;
+using System;
 using System.Collections.Generic;
 using System.Runtime.Serialization;
 using System.Text;
@@ -29,6 +30,5 @@ namespace PayPal.v1.PartnerReferrals
 
         [DataMember(Name = "products", EmitDefaultValue = false)]
         public ProductName[] Products;
-        
     }
 }

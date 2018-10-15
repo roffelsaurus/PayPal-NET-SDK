@@ -1,13 +1,16 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <Title>PayPal</Title>
-    <PackageId>PayPal</PackageId>
-    <Version>2.0.0-rc2reodor1</Version>
+    <Title>PayPal.NET.SDK</Title>
+    <PackageId>PayPal.NET.SDK</PackageId>
+    <Version>2.0.0-rc2reodor5</Version>
     <Copyright>Copyright (c) 2013-2018 PAYPAL, INC.</Copyright>
     <Description>PayPal-NET-SDK for PayPal REST APIs.</Description>
     <Authors>PayPal</Authors>
     <PackageReleaseNotes>* 2.0.0 release candidate release</PackageReleaseNotes>
+    <Product>PayPal</Product>
+    <AssemblyName>PayPal.NET.SDK</AssemblyName>
+    <RootNamespace>PayPal</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="BraintreeHttp-Dotnet" Version="0.3.0" />

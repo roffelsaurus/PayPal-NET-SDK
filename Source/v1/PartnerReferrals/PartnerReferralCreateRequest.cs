@@ -12,7 +12,13 @@ namespace PayPal.v1.PartnerReferrals
 
         public PartnerReferralCreateRequest() : base("/v1/customer/partner-referrals", HttpMethod.Post, typeof(PartnerReferralCreateRequest))
         {
-
+            this.ContentType = "application/json";
+        }
+        
+        public PartnerReferralCreateRequest RequestBody(PartnerReferral Body)
+        {
+            this.Body = Body;
+            return this;
         }
     }
 }

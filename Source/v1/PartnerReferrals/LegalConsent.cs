@@ -12,5 +12,11 @@ namespace PayPal.v1.PartnerReferrals
         {
 
         }
+
+        [DataMember(Name = "type", EmitDefaultValue = false)]
+        public LegalConsentType Type;
+
+        [DataMember(Name = "granted", EmitDefaultValue = false)]
+        public bool Granted;
     }
 }

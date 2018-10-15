@@ -2,7 +2,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Source", "Source\Source.csproj", "{27DB438A-22C2-4937-9956-B5E3FC41AF2F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PayPal.NET.SDK", "Source\PayPal.NET.SDK.csproj", "{27DB438A-22C2-4937-9956-B5E3FC41AF2F}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test", "Test\Test.csproj", "{B25D17E6-9268-40D2-817A-5FDDFD858BC6}"
 EndProject

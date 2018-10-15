@@ -6,11 +6,13 @@ using System.Text;
 namespace PayPal.v1.PartnerReferrals
 {
     [DataContract]
-    public class ProductName
+    public enum ProductName
     {
-        public ProductName()
-        {
-
-        }
+        [EnumMember]
+        EXPRESS_CHECKOUT,
+        [EnumMember]
+        PPPLUS,
+        [EnumMember]
+        WP_PRO
     }
 }
