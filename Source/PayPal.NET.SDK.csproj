@@ -3,7 +3,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <Title>PayPal.NET.SDK</Title>
     <PackageId>PayPal.NET.SDK</PackageId>
-    <Version>2.0.0-rc2reodor5</Version>
+    <Version>2.0.0-rc2reodor7</Version>
     <Copyright>Copyright (c) 2013-2018 PAYPAL, INC.</Copyright>
     <Description>PayPal-NET-SDK for PayPal REST APIs.</Description>
     <Authors>PayPal</Authors>

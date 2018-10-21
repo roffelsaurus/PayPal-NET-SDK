@@ -14,6 +14,6 @@ namespace PayPal.v1.PartnerReferrals.Capabilities
         public string PartnerClientId;
 
         [DataMember(Name = "feature_list", EmitDefaultValue = false)]
-        public RestEndpointFeature[] RestEndpointFeatures;
+        public string[] RestEndpointFeatures;
     }
 }

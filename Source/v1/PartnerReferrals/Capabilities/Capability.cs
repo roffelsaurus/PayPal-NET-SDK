@@ -14,7 +14,7 @@ namespace PayPal.v1.PartnerReferrals.Capabilities
         }
 
         [DataMember(Name = "capability", EmitDefaultValue = false)]
-        public CapabilityType CapabilityType;
+        public string CapabilityType;
 
         [DataMember(Name = "api_integration_preference", EmitDefaultValue = false)]
         public ApiIntegrationPreference ApiIntegrationPreference;

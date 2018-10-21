@@ -1,17 +1,11 @@
-﻿using System.Runtime.Serialization;
-
+﻿
 namespace PayPal.v1.PartnerReferrals.Capabilities
 {
-    [DataContract]
-    public enum CapabilityType
+    public static class CapabilityType
     {
-        [EnumMember]
-        API_INTEGRATION,
-        [EnumMember]
-        BANK_ADDITION,
-        [EnumMember]
-        BILLING_AGREEMENT,
-        [EnumMember]
-        CONTEXTUAL_MARKETING_CONSENT
+        public const string API_INTEGRATION = "API_INTEGRATION";
+        public const string BANK_ADDITION = "BANK_ADDITION";
+        public const string BILLING_AGREEMENT = "BILLING_AGREEMENT";
+        public const string CONTEXTUAL_MARKETING_CONSENT = "CONTEXTUAL_MARKETING_CONSENT";
     }
 }

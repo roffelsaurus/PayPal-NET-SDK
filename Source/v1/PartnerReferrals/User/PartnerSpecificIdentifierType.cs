@@ -1,11 +1,9 @@
-﻿using System.Runtime.Serialization;
-
+﻿
 namespace PayPal.v1.PartnerReferrals.User
 {
-    [DataContract]
-    public enum PartnerSpecificIdentifierType
+    
+    public static class PartnerSpecificIdentifierType
     {
-        [EnumMember]
-        TRACKING_ID
+        public const string TRACKING_ID = "TRACKING_ID";
     }
 }

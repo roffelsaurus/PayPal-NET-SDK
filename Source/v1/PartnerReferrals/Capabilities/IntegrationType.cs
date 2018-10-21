@@ -1,11 +1,8 @@
-﻿using System.Runtime.Serialization;
-
+﻿
 namespace PayPal.v1.PartnerReferrals.Capabilities
 {
-    [DataContract]
-    public enum IntegrationType
+    public static class IntegrationType
     {
-        [EnumMember]
-        THIRD_PARTY
+        public const string THIRD_PARTY = "THIRD_PARTY";
     }
 }

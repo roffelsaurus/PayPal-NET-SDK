@@ -5,14 +5,10 @@ using System.Text;
 
 namespace PayPal.v1.PartnerReferrals
 {
-    [DataContract]
-    public enum ProductName
+    public static class ProductNames
     {
-        [EnumMember]
-        EXPRESS_CHECKOUT,
-        [EnumMember]
-        PPPLUS,
-        [EnumMember]
-        WP_PRO
+        public const string EXPRESS_CHECKOUT = "EXPRESS_CHECKOUT";
+        public const string PPPLUS = "PPPLUS";
+        public const string WP_PRO = "WP_PRO";
     }
 }

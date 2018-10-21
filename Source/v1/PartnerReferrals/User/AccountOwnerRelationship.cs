@@ -1,13 +1,13 @@
-﻿using System.Runtime.Serialization;
+﻿//using System.Runtime.Serialization;
 
-namespace PayPal.v1.PartnerReferrals.User
-{
-    [DataContract]
-    public class AccountOwnerRelationship
-    {
-        public AccountOwnerRelationship()
-        {
+//namespace PayPal.v1.PartnerReferrals.User
+//{
+//    [DataContract]
+//    public class AccountOwnerRelationship
+//    {
+//        public AccountOwnerRelationship()
+//        {
 
-        }
-    }
-}
+//        }
+//    }
+//}

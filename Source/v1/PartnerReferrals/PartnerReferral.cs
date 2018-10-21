@@ -29,6 +29,6 @@ namespace PayPal.v1.PartnerReferrals
         public LegalConsent[] CollectedConsents;
 
         [DataMember(Name = "products", EmitDefaultValue = false)]
-        public ProductName[] Products;
+        public string[] Products;
     }
 }

@@ -1,13 +1,9 @@
-﻿using System.Runtime.Serialization;
-
+﻿
 namespace PayPal.v1.PartnerReferrals.Capabilities
 {
-    [DataContract]
-    public enum IntegrationMethod
+    public static class IntegrationMethod
     {
-        [EnumMember]
-        PAYPAL,
-        [EnumMember]
-        BRAINTREE
+        public const string PAYPAL = "PAYPAL";
+        public const string BRAINTREE = "BRAINTREE";
     }
 }

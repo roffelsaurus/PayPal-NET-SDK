@@ -10,11 +10,11 @@ namespace PayPal.v1.PartnerReferrals.Capabilities
         }
 
         [DataMember(Name = "integration_method", EmitDefaultValue = false)]
-        public IntegrationMethod IntegrationMethod;
+        public string IntegrationMethod;
 
 
 
-        [DataMember(Name = "integration_type ", EmitDefaultValue = false)]
-        public IntegrationType IntegrationType;
+        [DataMember(Name = "integration_type", EmitDefaultValue = false)]
+        public string IntegrationType;
     }
 }

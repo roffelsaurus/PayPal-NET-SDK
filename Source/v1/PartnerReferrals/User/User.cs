@@ -18,11 +18,11 @@ namespace PayPal.v1.PartnerReferrals.User
 
         }
 
-        [DataMember(Name = "customer_type", EmitDefaultValue = false)]
-        public CustomerType CustomerType;
+        //[DataMember(Name = "customer_type", EmitDefaultValue = false)]
+        //public CustomerType CustomerType;
 
-        [DataMember(Name = "person_details", EmitDefaultValue = false)]
-        public PersonDetails PersonDetails;
+        //[DataMember(Name = "person_details", EmitDefaultValue = false)]
+        //public PersonDetails PersonDetails;
 
 
         [DataMember(Name = "partner_specific_identifiers", EmitDefaultValue = false)]

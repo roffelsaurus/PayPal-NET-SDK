@@ -1,10 +1,7 @@
-﻿using System.Runtime.Serialization;
-
-namespace PayPal.v1.PartnerReferrals
+﻿namespace PayPal.v1.PartnerReferrals
 {
-    [DataContract]
-    public enum LegalConsentType
+    public static class LegalConsentType
     {
-        SHARE_DATA_CONSENT
+        public const string SHARE_DATA_CONSENT = "SHARE_DATA_CONSENT";
     }
 }

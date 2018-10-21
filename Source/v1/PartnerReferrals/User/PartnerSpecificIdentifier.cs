@@ -12,7 +12,7 @@ namespace PayPal.v1.PartnerReferrals.User
         }
 
         [DataMember(Name = "type", EmitDefaultValue = false)]
-        public PartnerSpecificIdentifierType Type;
+        public string PartnerSpecificIdentifierType;
 
         [DataMember(Name = "value", EmitDefaultValue = false)]
         public string Value;
